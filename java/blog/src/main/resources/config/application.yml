@@ -1,0 +1,24 @@
+spring:
+  profiles:
+    active: prod
+
+#swagger
+swagger:
+  enabled: true
+  base-package: com.snow
+  title: 论坛 API
+
+#项目端口
+server:
+  port: 8080
+
+#显示noSql
+logging:
+  level:
+    org:
+      springframework:
+          data:
+            mongodb: DEBUG
+
+
+
